@@ -50,7 +50,7 @@ body {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-  max-width: 300px;
+  max-width: 350px;
   margin: auto;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.9);
@@ -83,4 +83,13 @@ button {
 
 .card a:hover {
   opacity: 0.7;
+}
+
+.logo a {
+  height: auto;
+  width: auto; /* makes the div same size as content */
+}
+.text {
+  height: auto;
+  width: auto; /* makes the div same size as content */
 }
