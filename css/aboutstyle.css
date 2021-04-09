@@ -1,10 +1,7 @@
 body {
   font-family: "Catamaran", sans-serif;
   background-color: white;
-  background: url(images/TST.JPEG) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url(../images/TST.JPEG) no-repeat center center fixed;
   background-size: cover;
 }
 .main {
@@ -21,6 +18,7 @@ body {
 .topnav a {
   text-align: center;
   overflow: hidden;
+
   font-family: "Catamaran", sans-serif;
   text-decoration: none;
   color: black;
@@ -39,10 +37,9 @@ body {
 }
 
 .topnav a:hover {
-  background-color: gray;
+  background-color: #cccccc;
   transition: 0.2s;
   display: block;
-  color: black;
 }
 
 .topnav a:active {
@@ -51,11 +48,41 @@ body {
 #topnav ul {
   display: inline;
 }
-/*
-.banner {
-  background-color: rgb(77, 77, 77, 0.5);
-  padding: 5px;
 
-  background-position: 40% 60%;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
 }
-*/
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+b {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  padding: 10px;
+}
+
+button:hover,
+b:hover {
+  opacity: 0.7;
+}
