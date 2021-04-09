@@ -1,3 +1,3 @@
-# Jang Hyeon's personal website
+# Jang Hyeon website
 
-This is Jang's private repo for his website.
+This is Jang's public repo for his website.
