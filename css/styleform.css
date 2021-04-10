@@ -1,5 +1,5 @@
 body {
-  font-family: "Catamaran", sans-serif;
+  font-family: garamond;
   background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -8,5 +8,4 @@ body {
 }
 .main {
   font-size: 60px;
-  color: white;
 }

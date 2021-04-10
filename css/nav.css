@@ -7,7 +7,7 @@
 .topnav a {
   text-align: center;
   overflow: hidden;
-  font-family: "Catamaran", sans-serif;
+  font-family: garamond;
   text-decoration: none;
   color: black;
   display: block;
@@ -27,7 +27,6 @@
 .topnav a:hover {
   background-color: #b6b6b6;
   transition: 0.2s;
-  display: block;
 }
 
 .topnav a:active {

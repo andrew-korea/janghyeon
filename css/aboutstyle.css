@@ -1,60 +1,8 @@
 body {
-  font-family: "Catamaran", sans-serif;
+  font-family: garamond;
   background-color: white;
   background-size: cover;
 }
 .main {
   font-size: 60px;
-  color: white;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-  max-width: 350px;
-  margin: auto;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-.title {
-  color: grey;
-  font-size: 18px;
-}
-
-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: rgba(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.9);
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-button:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-  transition: 0.2s;
-}
-
-.card a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-  padding: 10px;
-}
-
-.card a:hover {
-  opacity: 0.7;
-}
-
-.logo a {
-  height: auto;
-  width: auto; /* makes the div same size as content */
-}
-.text {
-  height: auto;
-  width: auto; /* makes the div same size as content */
 }
