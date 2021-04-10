@@ -3,7 +3,18 @@
   width: 200px;
   padding: 10px;
 }
+.logo {
+  font-family: garamond;
+  float: left;
+  padding-left: 30px;
+  font-size: 20px;
+}
 
+.logo a {
+  color: black;
+
+  text-decoration: none;
+}
 .topnav a {
   text-align: center;
   overflow: hidden;
