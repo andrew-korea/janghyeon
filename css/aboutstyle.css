@@ -16,7 +16,17 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
+.introduction_kr {
+  display: block;
+  padding: 45px;
+  background-color: rbg(255, 255, 255, 0.9);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Noto Serif KR;
+  word-break: keep-all;
+}
 .sign {
   text-align: right;
 }
