@@ -1,26 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <a href="https://andrew-korea.github.io/janghyeon/">
-      <img src="images/Signature-removebg.png" alt="myLogo" class="icon" />
-    </a>
-
-    <div class="topnav">
-      <ul>
-        <h2>
-          <li><a href="about.html">About me</a></li>
-          <li><a href="#experiences">Experiences</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </h2>
-      </ul>
-    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#nav").load("nav.html");
+      });
+    </script>
     <!-- <link rel="icon" href="http://example.com/favicon.png"> -->
     <link rel="stylesheet" href="css/styleform.css" />
     <title>Jang Hyeon</title>
   </head>
 
   <body>
+    <div id="nav"></div>
     <div class="main">
       <h1>Welcome to my website.</h1>
     </div>
