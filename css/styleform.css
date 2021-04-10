@@ -8,4 +8,6 @@ body {
 }
 .main {
   font-size: 60px;
+  padding: 50px;
+  padding-top: 200px;
 }
