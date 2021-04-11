@@ -3,14 +3,13 @@ body {
   background-size: cover;
   background: linear-gradient(
     -30deg,
-    #05241a 0%,
-    #19042b 50%,
-    #262626 50%,
-    #49606b 100%
+    #262626 0%,
+    #67777e 50%,
+    #769aaa 50%,
+    rgb(231, 231, 231) 100%
   );
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 .main {
   font-size: 60px;
