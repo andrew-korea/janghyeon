@@ -3,36 +3,71 @@ body {
   background-size: cover;
   background: linear-gradient(
     -30deg,
-    #0f5364 0%,
-    #280644 50%,
+    #0f6448 0%,
+    #19042b 50%,
     #262626 50%,
     #607d8b 100%
   );
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
 }
 .main {
   font-size: 60px;
 }
-.introduction {
-  display: block;
+
+.intro,
+.introK {
+  position: relative;
+  overflow: hidden;
   padding: 45px;
   color: white;
   background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
   width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.introduction_kr {
-  display: block;
-  padding: 45px;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: Noto Serif KR;
   word-break: keep-all;
+}
+.introK {
+  font-family: Noto Serif KR;
+}
+.intro:before,
+.introK::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  transition: 0.5s;
+}
+.intro:after,
+.introK:after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transition: 0.5s;
+}
+.intro:hover:after,
+.introK:hover:after {
+  left: 60%;
 }
 .sign {
   text-align: right;
