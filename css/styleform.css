@@ -4,10 +4,10 @@ body {
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: right;
-  padding-top: 300px;
 }
 .maintext {
   font-size: 30px;
   padding-left: 50px;
   color: black;
+  padding-top: 300px;
 }

@@ -1,16 +1,22 @@
 body {
   font-family: garamond;
-  background-color: white;
   background-size: cover;
+  background: linear-gradient(
+    -30deg,
+    #0f5364 0%,
+    #280644 50%,
+    #262626 50%,
+    #607d8b 100%
+  );
 }
 .main {
   font-size: 60px;
 }
-
 .introduction {
   display: block;
   padding: 45px;
-  background-color: rbg(255, 255, 255, 0.9);
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
   width: 600px;
   margin-left: auto;
@@ -19,7 +25,8 @@ body {
 .introduction_kr {
   display: block;
   padding: 45px;
-  background-color: rbg(255, 255, 255, 0.9);
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
   width: 600px;
   margin-left: auto;
