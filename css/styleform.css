@@ -1,13 +1,13 @@
 body {
   font-family: garamond;
-  background-color: white;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url("../images/tamarPark.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.main {
+.maintext {
   font-size: 60px;
   padding: 50px;
   padding-top: 200px;
+  color: black;
 }

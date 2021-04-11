@@ -36,7 +36,7 @@
 }
 
 .topnav a:hover {
-  background-color: #b6b6b6;
+  background-color: rgba(0, 0, 0, 0.3);
   transition: 0.2s;
 }
 
