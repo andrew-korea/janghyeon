@@ -1,13 +1,13 @@
 body {
   font-family: garamond;
-  background: url("../images/tamarPark.jpg");
-  background-size: cover;
+  background: url("../images/masked_bkg.png");
+  background-size: 70%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
+  padding-top: 300px;
 }
 .maintext {
-  font-size: 60px;
-  padding: 50px;
-  padding-top: 200px;
+  font-size: 30px;
+  padding-left: 50px;
   color: black;
 }
