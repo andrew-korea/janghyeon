@@ -3,15 +3,14 @@ body {
   background-size: cover;
   background: linear-gradient(
     -30deg,
-    #0f6448 0%,
+    #05241a 0%,
     #19042b 50%,
     #262626 50%,
-    #607d8b 100%
+    #49606b 100%
   );
   display: flex;
   flex-direction: column;
   position: relative;
-  align-items: center;
 }
 .main {
   font-size: 60px;
@@ -27,6 +26,8 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
   width: 600px;
   word-break: keep-all;
+  margin-left: auto;
+  margin-right: auto;
 }
 .introK {
   font-family: Noto Serif KR;
