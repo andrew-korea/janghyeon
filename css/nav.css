@@ -4,6 +4,15 @@
   width: 100%;
 }
 
+body {
+  padding-top: 100px;
+}
+
+.box {
+  height: 500px;
+  background-color: black;
+}
+
 .logo {
   font-family: Georgia, "Times New Roman", Times, serif;
   float: left;
