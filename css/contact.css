@@ -3,15 +3,28 @@
   max-width: 400px;
   margin: auto;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(52, 73, 85, 0.9);
   font-family: garamond;
 }
+
+p,
+h1,
+h2,
+h3 {
+  color: #b3c5cd;
+}
+
 .uni {
+  color: black;
   padding: 20px;
 }
 
 .uni a:hover {
   opacity: 0.7;
+}
+.icons {
+  background-color: #f9aa33;
+  padding: 10px;
 }
 .icons a {
   text-decoration: none;
@@ -24,7 +37,7 @@
   opacity: 0.7;
 }
 .title {
-  color: grey;
+  color: #b3c5cd7a;
   font-size: 25px;
 }
 

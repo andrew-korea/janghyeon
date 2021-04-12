@@ -5,11 +5,18 @@ body {
     -30deg,
     #262626 0%,
     #67777e 50%,
-    #769aaa 50%,
-    rgb(231, 231, 231) 100%
+    #232f34 50%,
+    rgb(112, 111, 111) 100%
   );
   display: flex;
   flex-direction: column;
+}
+
+p,
+h1,
+h2,
+h3 {
+  color: #b3c5cd;
 }
 .main {
   font-size: 60px;
@@ -20,8 +27,7 @@ body {
   position: relative;
   overflow: hidden;
   padding: 45px;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(52, 73, 85, 0.2);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
   width: 600px;
   word-break: keep-all;
