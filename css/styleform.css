@@ -4,6 +4,14 @@ body {
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: right;
+  background-color: #232f34;
+}
+
+p,
+h1,
+h2,
+h3 {
+  color: #b3c5cd;
 }
 .maintext {
   font-size: 30px;
