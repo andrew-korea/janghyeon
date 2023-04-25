@@ -1,6 +1,6 @@
-# Jang Hyeon website
-
-This is Jang's public repo for his website.
+# My webpage
 
 Welcome!
+
+This is Andrew's repository for his website:
 https://andrew-korea.github.io/janghyeon/
